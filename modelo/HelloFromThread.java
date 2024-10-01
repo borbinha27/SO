@@ -1,3 +1,11 @@
-public class HelloFromThread {
+package modelo;
+
+public class HelloFromThread implements Runnable{
+
+    @Override
+    public void run() {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'run'");
+    }
     
 }
