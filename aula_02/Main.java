@@ -3,6 +3,8 @@ import aula_02.atividade.HelloMaster;
 
 public class Main{
     public static void main(String[] args) {
-        HelloMaster.letsGetSomeHellos(); 
+        HelloMaster hm = new HelloMaster();
+        int n = Runtime.getRuntime().availableProcessors();
+        HelloMaster.letsGetSomeHellos(n); 
     }
 }
