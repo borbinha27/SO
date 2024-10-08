@@ -1,6 +1,6 @@
-package atividade;
+package aula_01.atividade;
 
-import modelo.HelloFromThread;
+import aula_01.modelo.HelloFromThread;
 
 public class HelloMaster{
     public static void letsGetSomeHellos(){

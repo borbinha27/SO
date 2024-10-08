@@ -1,4 +1,4 @@
-package modelo;
+package aula_01.modelo;
 
 public class HelloFromThread implements Runnable {
     private int threadId;
